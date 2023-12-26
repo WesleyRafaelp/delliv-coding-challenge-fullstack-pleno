@@ -1,6 +1,6 @@
-# Projeto de Entrega (Delivery)
+# Desafio Delliv Fullstack Pleno - (Delivery)
 
-Bem-vindo ao projeto de sistema de entrega. Este projeto consiste em um backend utilizando NestJS, um banco de dados PostgreSQL e um frontend em React(Nextjs).
+Bem-vindo ao Delliv Fullstack Pleno Coding Challenge! O objetivo deste desafio é construir um aplicativo de rastreamento de entregas que ofereça aos usuários autenticados a capacidade de visualizar uma lista de pedidos, atualizar o status de cada pedido e fornecer recursos de autenticação e segurança. No frontend usei reactjs(nextjs) com redux para gerenciamento de estado e no backend usei nestjs com prisma de ORM para conexão com banco de dados postgresql
 
 ## 🚀 Como Iniciar
 
