@@ -9,8 +9,8 @@ Certifique-se de ter o Docker e o Docker Compose instalados antes de prosseguir.
 1. Clone o repositório para sua máquina:
 
     ```bash
-    git clone https://github.com/seu-usuario/seu-projeto.git
-    cd seu-projeto
+    git clone https://github.com/WesleyRafaelp/delliv-coding-challenge-fullstack-pleno.git
+    cd delliv-coding-challenge-fullstack-pleno
     ```
 
 2. Crie um arquivo `.env` para o backend e configure as variáveis necessárias:
