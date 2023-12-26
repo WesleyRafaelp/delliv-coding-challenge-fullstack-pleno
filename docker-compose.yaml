@@ -1,0 +1,36 @@
+version: '3'
+services:
+
+  db:
+    image: postgres:14.3
+    restart: always
+    environment:
+      POSTGRES_DB: deliveryDB
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: example
+    ports:
+      - "5432"
+    networks:
+      - compose-bridge
+
+  backend:
+    build: ./backend
+    ports:
+      - "3001:3001"
+    depends_on:
+      - db
+    networks:
+      - compose-bridge
+    environment:
+      DATABASE_URL: postgres://root:example@db:5432/deliveryDB
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    networks:
+      - compose-bridge
+
+networks:
+  compose-bridge:
+    driver: bridge
