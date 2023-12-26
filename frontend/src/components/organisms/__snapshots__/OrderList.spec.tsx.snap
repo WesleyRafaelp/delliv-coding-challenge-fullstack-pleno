@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderList Component Snapshot matches snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="bg-white border border-gray-300 rounded p-4 mb-4 shadow-md"
+    >
+      <div
+        class="mb-2"
+      >
+        <strong
+          class="text-lg font-semibold text-gray-800"
+        >
+          Cliente:
+        </strong>
+         John Doe
+      </div>
+      <div
+        class="mb-2"
+      >
+        <strong
+          class="text-lg font-semibold text-gray-800"
+        >
+          Endereço de Entrega:
+        </strong>
+         123 Main St
+      </div>
+      <div
+        class="mb-2"
+      >
+        <strong
+          class="text-lg font-semibold text-gray-800"
+        >
+          Status:
+        </strong>
+         PENDENTE
+      </div>
+      <div
+        class="mt-4 flex justify-between space-x-2"
+      >
+        <div>
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+            type="button"
+          >
+            Editar Status
+          </button>
+        </div>
+        <button
+          class="text-red-500 hover:text-red-700"
+        >
+          Excluir
+        </button>
+      </div>
+    </div>
+    <div
+      class="bg-white border border-gray-300 rounded p-4 mb-4 shadow-md"
+    >
+      <div
+        class="mb-2"
+      >
+        <strong
+          class="text-lg font-semibold text-gray-800"
+        >
+          Cliente:
+        </strong>
+         Jane Doe
+      </div>
+      <div
+        class="mb-2"
+      >
+        <strong
+          class="text-lg font-semibold text-gray-800"
+        >
+          Endereço de Entrega:
+        </strong>
+         456 Oak St
+      </div>
+      <div
+        class="mb-2"
+      >
+        <strong
+          class="text-lg font-semibold text-gray-800"
+        >
+          Status:
+        </strong>
+         ENVIADO
+      </div>
+      <div
+        class="mt-4 flex justify-between space-x-2"
+      >
+        <div>
+          <button
+            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+            type="button"
+          >
+            Editar Status
+          </button>
+        </div>
+        <button
+          class="text-red-500 hover:text-red-700"
+        >
+          Excluir
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

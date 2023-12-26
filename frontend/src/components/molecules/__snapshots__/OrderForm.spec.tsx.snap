@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderForm Component matches snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="flex flex-col gap-4 bg-white border border-gray-300 rounded p-4 mb-4"
+  >
+    <label
+      class="block font-semibold text-gray-700"
+    >
+      Cliente:
+      <input
+        class="border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring focus:border-blue-300"
+        name="client"
+        placeholder="Digite o nome do cliente"
+        type="text"
+        value=""
+      />
+    </label>
+    <label
+      class="block font-semibold text-gray-700"
+    >
+      Rua:        
+      <input
+        class="border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring focus:border-blue-300"
+        name="street"
+        placeholder="Digite o nome da rua"
+        type="text"
+        value=""
+      />
+    </label>
+    <label
+      class="block font-semibold text-gray-700"
+    >
+      Número :       
+      <input
+        class="border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring focus:border-blue-300"
+        inputmode="numeric"
+        name="number"
+        placeholder="Digite o número do local"
+        type="text"
+        value=""
+      />
+    </label>
+    <label
+      class="block font-semibold text-gray-700"
+    >
+      Bairro :       
+      <input
+        class="border border-gray-300 rounded p-2 w-full focus:outline-none focus:ring focus:border-blue-300"
+        name="neighborhood"
+        placeholder="Digite o nome do bairro"
+        type="text"
+        value=""
+      />
+    </label>
+    <button
+      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
+      type="submit"
+    >
+      Criar Pedido
+    </button>
+  </form>
+</DocumentFragment>
+`;
