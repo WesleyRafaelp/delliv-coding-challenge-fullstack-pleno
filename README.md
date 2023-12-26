@@ -15,14 +15,14 @@ Certifique-se de ter o Docker e o Docker Compose instalados antes de prosseguir.
 
 2. Crie um arquivo `.env` para o backend e configure as variáveis necessárias:
 
-    ```env
+    ```bash
     # Backend
     DATABASE_URL=postgres://root:example@db:5432/deliveryDB 
-
-JWT_SECRET = secret
-JWT_EXPIRATION_AT = 15s
-JWT_REFRESH_SECRET= secret2
-JWT_EXPIRATION_RT = 7d
+    
+    JWT_SECRET = secret
+    JWT_EXPIRATION_AT = 15s
+    JWT_REFRESH_SECRET= secret2
+    JWT_EXPIRATION_RT = 7d
     ```
 
 3. Inicie os serviços usando o Docker Compose:
