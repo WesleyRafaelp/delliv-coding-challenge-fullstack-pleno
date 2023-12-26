@@ -68,10 +68,10 @@ npm run start:dev
 ```
 ### Frontend
 
-O frontend foi construído com NextJS(a documentação sugere criar uma aplicação com alguns frameworks e o nextjs foi o que escolhi). Instale as dependências e inicie o servidor de desenvolvimento:
+O frontend foi construído com NextJS(a documentação do React sugere criar uma aplicação com alguns frameworks e o nextjs foi o que escolhi). Instale as dependências e inicie o servidor de desenvolvimento:
 
 ```bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
